@@ -1,5 +1,5 @@
 import { QuestionComment } from '../../enterprise/entities/question-comment'
 
-export interface QuestionCommentRepository {
+export interface QuestionCommentsRepository {
   create(questionComment: QuestionComment): Promise<void>
 }
