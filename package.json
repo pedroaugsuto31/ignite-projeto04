@@ -5,6 +5,7 @@
   "scripts": {
     "test": "vitest run",
     "test:watch": "vitest",
+    "test:ui": "vitest --ui",
     "lint": "eslint src --ext .ts",
     "lint:fix": "eslint src --ext .ts --fix"
   },
@@ -16,6 +17,7 @@
     "@faker-js/faker": "^9.4.0",
     "@rocketseat/eslint-config": "^2.2.2",
     "@types/node": "^22.10.7",
+    "@vitest/ui": "^3.0.4",
     "eslint": "^8.57.1",
     "eslint-plugin-vitest-globals": "^1.5.0",
     "typescript": "^5.7.3",
